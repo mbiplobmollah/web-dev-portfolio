@@ -27,6 +27,22 @@ nav {
     border: none;
 }
 
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+
 .dark2{
     color: #474747;
 }
@@ -93,4 +109,25 @@ nav li a {
     background-image: url(../images/developer.png) , url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: 600;
 }
