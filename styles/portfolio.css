@@ -42,6 +42,7 @@ nav {
 
 .secondary-bg {
     background-color: #FFF8F3;
+
 }
 
 .text-center {
@@ -95,8 +96,9 @@ nav li a {
 }
 
 .banner-pic{
-    height: 676px;
+    height: 750px;
     width: 584px;
+    background-position: top left;
 }
 
 .banner {
@@ -185,6 +187,7 @@ footer {
 
 .footer-column {
     width: 50%;
+    /* margin: 200px; */
 }
 
 footer input[type="text"], footer input[type="email"], footer textarea{
