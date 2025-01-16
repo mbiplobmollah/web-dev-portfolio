@@ -206,7 +206,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     display: none;
 }
 @media screen and (max-width: 576px){
-   .skills-container,.resume-container, .about-items{
+   .skills-container,.resume-container, .about-items,.banner, nav{
     flex-direction: column;
    }
    footer{
@@ -223,6 +223,24 @@ footer input[type="text"], footer input[type="email"], footer textarea{
    }
    .about{
     padding: 20px;
+    margin: 50px 0;
+   }
+   .banner{
+    margin: 20px;
+   }
+   .header{
+    background-image: none;
+   }
+   .banner-pic{
+    width: 100%;
+    height: 100%;
+   }
+   nav ul, .nav-title {
+    padding: 0;
+    margin: 20px;
+   }
+   .btn{
+    margin-bottom: 20px;
    }
  
 }
